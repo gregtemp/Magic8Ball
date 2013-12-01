@@ -33,6 +33,7 @@
 		5E14372118498B0800CF23F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1436CD18498B0400CF23F3 /* UIKit.framework */; };
 		5E14372918498B0800CF23F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E14372718498B0800CF23F3 /* InfoPlist.strings */; };
 		5E14372B18498B0800CF23F3 /* Magic8BallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E14372A18498B0800CF23F3 /* Magic8BallTests.m */; };
+		5E1437351849935400CF23F3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E1437341849935400CF23F3 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		5E14372618498B0800CF23F3 /* Magic8BallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Magic8BallTests-Info.plist"; sourceTree = "<group>"; };
 		5E14372818498B0800CF23F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E14372A18498B0800CF23F3 /* Magic8BallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Magic8BallTests.m; sourceTree = "<group>"; };
+		5E1437341849935400CF23F3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E1437351849935400CF23F3 /* CoreMotion.framework in Frameworks */,
 				5E14371118498B0700CF23F3 /* libC4.a in Frameworks */,
 				5E1436CC18498B0400CF23F3 /* QuartzCore.framework in Frameworks */,
 				5E1436CE18498B0400CF23F3 /* UIKit.framework in Frameworks */,
@@ -177,6 +180,7 @@
 		5E1436B818498B0400CF23F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E1437341849935400CF23F3 /* CoreMotion.framework */,
 				5E1436B918498B0400CF23F3 /* Accelerate.framework */,
 				5E1436BB18498B0400CF23F3 /* AVFoundation.framework */,
 				5E1436BD18498B0400CF23F3 /* CoreFoundation.framework */,
